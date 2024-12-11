@@ -39,10 +39,11 @@ def brain_progression():
             print("Correct!")
         else:
             print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}!")
+            break
 
-    if i == 3:
-        print(f"Congratulations, {name}!")
-    i += 1
+        if i == 3:
+            print(f"Congratulations, {name}!")
+        i += 1
 
 
 

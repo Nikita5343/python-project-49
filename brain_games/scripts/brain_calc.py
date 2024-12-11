@@ -19,7 +19,7 @@ def main():
         operator = ['*', '+', '-']
         random_index = random.randint(0, len(operator) - 1)
         random_element = operator[random_index]
-        print(f"Question {number_one} {random_element} {number_two}")
+        print(f"Question: {number_one} {random_element} {number_two}")
         n = input(("Your answer: "))
         if random_element == "*" and str(number_one * number_two) == n:
             print("Correct!")
