@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import random
+
 import prompt
+
 
 def is_prime(n):
     if n <= 1:

@@ -1,6 +1,7 @@
-import random
-import prompt
 import math
+import random
+
+import prompt
 
 
 def brain_gcd():

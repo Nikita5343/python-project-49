@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 import random
-import prompt
 
-from .cli import welcome_user
+import prompt
 
 
 def main():

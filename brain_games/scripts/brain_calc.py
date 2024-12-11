@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import random
-from re import A
-from urllib.parse import _NetlocResultMixinBase
+
 import prompt
 
 # from .cli import welcome_user
@@ -20,7 +19,7 @@ def main():
         random_index = random.randint(0, len(operator) - 1)
         random_element = operator[random_index]
         print(f"Question: {number_one} {random_element} {number_two}")
-        n = input(("Your answer: "))
+        n = input("Your answer: ")
         if random_element == "*" and str(number_one * number_two) == n:
             print("Correct!")
         elif random_element == "+" and str(number_one + number_two) == n:
