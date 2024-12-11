@@ -2,16 +2,13 @@
 import random
 import prompt
 
-def is_prime(number):
-    if number <= 1:
+def is_prime(n):
+    if n <= 1:
         return False
-    if number == 2:
-        return True
-    for i in range(2,int(number)):
-        if number % i == 0:
+    for i in range(2, n // 2 + 1):
+        if n % i == 0:
             return False
-        else:
-            return True
+    return True
 
 def brain_prime():
     print("Welcome to the Brain Games!")
